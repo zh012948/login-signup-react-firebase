@@ -60,7 +60,7 @@ function Login() {
 
                     <div className="signup-link">
                         <span>Don't have an account?</span>
-                        <NavLink style={styles} to="/sign-up" >    Sign Up</NavLink>
+                        <NavLink style={styles} to="/sign-up"  >    Sign Up</NavLink>
 
                     </div>
 
