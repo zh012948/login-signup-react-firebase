@@ -14,13 +14,15 @@
 }
 
 .content-container {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: center; */
     text-align: start;
     width: 60vw;
     margin: 120px;
+    /* margin-left: 240px; */
 }
 
 .image-container img {
@@ -106,9 +108,7 @@ input:focus {
 
 .remember-checkbox {
     display: flex;
-    align-items: center;
     gap: 8px;
-
     margin-top: 12px;
 
     font-size: 14px;
@@ -153,4 +153,25 @@ input:focus {
 
 .btnLogin button:active {
     opacity: 1.5;
+}
+
+.seperation-styling {
+    display: flex;
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+.horizontal {
+    transform: translateY(10px);
+    width: 120px;
+    background: lightgrey;
+    height: 1px;
+}
+
+#or {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 11px;
 }

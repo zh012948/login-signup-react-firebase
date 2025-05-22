@@ -32,6 +32,26 @@ function Login() {
                     <div className="btnLogin">
                         <button type="submit">login</button>
                     </div>
+
+
+                    <div className="seperation-styling">
+                        <div className="horizontal">{""}</div>
+                        <span id="or">Or</span>
+                        <div className="horizontal">{""}</div>
+                    </div>
+
+                    {/* other Sigin Options */}
+                    <div className="other-signin-optoins">
+                        <div className="google">
+
+                        </div>
+
+                        <div className="apple">
+
+                        </div>
+
+                    </div>
+
                 </div>
                 <div className="image-container">
                     <img src={Image} alt="sideImage" />
