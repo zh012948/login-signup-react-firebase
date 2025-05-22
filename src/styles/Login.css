@@ -159,7 +159,7 @@ input:focus {
     display: flex;
     width: 270px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 
@@ -174,4 +174,52 @@ input:focus {
     margin-left: 6px;
     margin-right: 6px;
     font-size: 11px;
+}
+
+
+.other-signin-optoins {
+    display: flex;
+    font-size: 11px;
+    gap: 12px;
+}
+
+.google {
+    border: 1px solid lightgrey;
+    width: fit-content;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.google:hover {
+    cursor: not-allowed;
+}
+
+.google img {
+    width: 25px;
+    align-items: center;
+    transform: translateY(7px);
+}
+
+
+.apple {
+    border: 1px solid lightgrey;
+    width: fit-content;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.apple:hover {
+    cursor: not-allowed;
+}
+
+.apple img {
+    width: 25px;
+    align-items: center;
+    transform: translateY(7px);
 }

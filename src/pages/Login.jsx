@@ -1,5 +1,7 @@
 import '../styles/Login.css'
 import Image from '../assets/images/image.png'
+import googleLogo from '../assets/images/google-logo.png'
+import appleLogo from '../assets/images/apple-logo.png'
 import { useState } from 'react'
 function Login() {
     const [email, setEmail] = useState("");
@@ -43,10 +45,14 @@ function Login() {
                     {/* other Sigin Options */}
                     <div className="other-signin-optoins">
                         <div className="google">
-
+                            <img src={googleLogo} alt="google" />
+                            Sign in with Google
                         </div>
 
+
                         <div className="apple">
+                            <img src={appleLogo} alt="apple" />
+                            Sign in with Apple
 
                         </div>
 
