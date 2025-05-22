@@ -3,6 +3,7 @@ import Image from '../assets/images/image.png'
 import googleLogo from '../assets/images/google-logo.png'
 import appleLogo from '../assets/images/apple-logo.png'
 import { useState } from 'react'
+import { Routes, NavLink } from 'react-router-dom'
 function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -53,8 +54,13 @@ function Login() {
                         <div className="apple">
                             <img src={appleLogo} alt="apple" />
                             Sign in with Apple
-
                         </div>
+
+                    </div>
+
+                    <div className="signup-link">
+                        <span>Don't have an account?</span>
+                        <NavLink style={styles} to="/sign-up" >    Sign Up</NavLink>
 
                     </div>
 
@@ -70,3 +76,9 @@ function Login() {
 
 
 export default Login
+
+
+const styles = {
+    "text-decoration": "none",
+
+}
