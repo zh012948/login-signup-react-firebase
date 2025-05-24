@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: inter, sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .login-container {
@@ -235,4 +236,52 @@ input:focus {
 
 .signup-link span {
     font-weight: 600;
+}
+
+
+@media screen and (max-width:768px) {
+    .login-container {
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .content-container {
+        margin-left: 45px;
+
+    }
+
+    .image-container {
+        height: 1200px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 1280px;
+        margin-top: 12px;
+
+    }
+
+    .google {
+        width: 145px;
+
+    }
+
+    .apple {
+        width: 145px;
+
+    }
+
+    .remember-checkbox label {
+        font-size: 14px;
+    }
+
+
+    .input-container label {
+        font-size: 15px;
+    }
+
+    .btnLogin button {
+        font-size: 17px;
+    }
+
 }

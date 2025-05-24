@@ -86,13 +86,13 @@ function SignUp() {
                     <div className="other-signin-optoins">
                         <div className="google">
                             <img src={googleLogo} alt="google" />
-                            Sign Up with Google
+                            Signup with Google
                         </div>
 
 
                         <div className="apple">
                             <img src={appleLogo} alt="apple" />
-                            Sign Up with Apple
+                            Signup with Apple
                         </div>
 
                     </div>
